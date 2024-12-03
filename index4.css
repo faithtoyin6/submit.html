@@ -1,0 +1,15 @@
+body{
+    background-color: blanchedalmond;
+}
+h1{
+    background-color:burlywood;
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
+p{
+    color: brown;
+    font-size: 24px;
+    font-family: sans-serif;
+}

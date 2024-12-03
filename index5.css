@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  
+body{
+    background-image:url(coffee_1920.jpg) ;
+}
+    
+
+.nav{
+    display: flex;
+    }
+
+.home{
+    margin-top: 10px;
+    }
+
+ a{
+    text-decoration: none;
+    margin-left: 90px;
+    color: black;
+    padding: 8px;
+}
+
+#coding{
+    color:greenyellow;
+    margin-right: 130px;
+    font-size: 25px;
+    font-family: cursive;
+    text-shadow:8px 2px black ;
+}
+
+#login{
+    color: navy;
+    font-family: cursive;  
+    padding: 8px;
+}
+
+#login:hover{
+    background-color: greenyellow;
+}
+
+h2{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
+    line-height: 1.5;
+    text-shadow: 2px 1px 1px black;
+}
+.btn{
+    position: relative;
+    top: 100px;
+    left: 46%;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    font-size: 24px;
+    border-radius: 10px;
+    
+}
+.btn:hover{
+    box-shadow: 0 0 5px cyan, 
+    0 0 25px cyan ,       
+    0 0 50px cyan ,       
+    0 0 100px cyan , 
+    0 0 200px cyan ,       ;
+           ;
+}
+
+.services{
+    margin-top: 300px;
+
+}
+
+.center{
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+}
+div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+div:hover{
+    flex:5;
+}
+    
+
+    

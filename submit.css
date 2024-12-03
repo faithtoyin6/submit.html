@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(coffee_1920.jpg);
+}
+
+.btn{
+
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #262a35;
+    color: white;
+    position: relative;
+}
+    
+.ribbon{
+    width: 60px;
+    font-size: 14px;
+    padding: 4px;
+    position: absolute;
+    right: -25px;
+    top:-12px;
+    text-align: center;
+    transform: rotate(20deg);
+    background-color: #ff9800;
+    color:white
+}
+
+.card{
+    box-shadow: 2px 2px 2px black;
+    transition: 2s;
+  background-color: brown;
+  margin: 15px;
+  padding: 15px;
+}
+
+.section{
+    
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-gap:20px;
+    padding: 10px;
+}
+
+img{
+    width: 50%;
+   border-radius: 10px;
+   }
+
+   h4{
+    font-size: 30px;
+    text-shadow: 1px 1px chocolate;
+    font-family: sans-serif;
+   }
+   p{
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+   }
+   .content{
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+   }
+   div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+   }
+   div:hover{
+    flex:5;
+   }
+    

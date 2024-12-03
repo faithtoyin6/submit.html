@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(coffee_1920.jpg) ;
+}
+h2{
+    text-align: center;
+    margin-top:100px ;
+    text-shadow: 2px 2px 2px greenyellow;
+    color: black;
+    font-size: 30px;
+}
+
+form{
+    text-align: center;
+    margin-top: 50px;
+}
+.btn{
+    position: relative;
+    color:black;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 5px solid white;
+    padding: 5px;
+}
+.btn:hover{
+    background-color:coral;
+}
+.alert{
+    padding: 20px;
+    background-color: red;
+    color: white;
+    margin-bottom: 15px;
+}
+.closebtn{
+    margin-left: 15px;
+    color:white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 3s;
+}
+.closebtn:hover{
+    color: black;
+}
